@@ -10,19 +10,15 @@ const Developer = ({ animationName = 'untitled', ...props}) => {
     const { animations: saluteAnimation } = useFBX('/models/animations/salute.fbx')
     const { animations: clappingAnimation } = useFBX('/models/animations/clapping.fbx')
     const { animations: victoryAnimation } = useFBX('/models/animations/victory.fbx')
-    const { animations: sillyAnimation} = useFBX('/models/animations/silly.fbx')
-    const { animations: testAnimation} = useFBX('/models/animations/test.fbx')
     const { animations: untitledAnimation} = useFBX('/models/animations/untitled.fbx')
 
     idleAnimation[0].name = 'idle';
     saluteAnimation[0].name = 'salute';
     clappingAnimation[0].name = 'clapping';
     victoryAnimation[0].name = 'victory';
-    sillyAnimation[0].name = 'silly';
-    testAnimation[0].name = 'test';
     untitledAnimation[0].name = 'untitled';
 
-    const { actions } = useAnimations([idleAnimation[0], saluteAnimation[0], clappingAnimation[0], victoryAnimation[0], sillyAnimation[0], testAnimation[0], untitledAnimation[0]], group);
+    const { actions } = useAnimations([idleAnimation[0], saluteAnimation[0], clappingAnimation[0], victoryAnimation[0], untitledAnimation[0]], group);
 
     
 
