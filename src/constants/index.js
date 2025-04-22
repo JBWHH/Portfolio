@@ -21,50 +21,15 @@ export const navLinks = [
     },
   ];
   
-  export const clientReviews = [
-    {
-      id: 1,
-      name: 'Emily Johnson',
-      position: 'Marketing Director at GreenLeaf',
-      img: 'assets/review1.png',
-      review:
-        'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-    },
-    {
-      id: 2,
-      name: 'Mark Rogers',
-      position: 'Founder of TechGear Shop',
-      img: 'assets/review2.png',
-      review:
-        'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-    },
-    {
-      id: 3,
-      name: 'John Dohsas',
-      position: 'Project Manager at UrbanTech ',
-      img: 'assets/review3.png',
-      review:
-        'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-    },
-    {
-      id: 4,
-      name: 'Ether Smith',
-      position: 'CEO of BrightStar Enterprises',
-      img: 'assets/review4.png',
-      review:
-        'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-    },
-  ];
-  
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'Grub Finder - Food Delivery Platform',
+      desc: 'Grub Finder is a MERN-stack web application that incorporates Tinder-like swipe functionality. It helps users discover new eateries around them. Includes features for both user and vendor with authentication. Vendors can add their eateries and users can browse and swipe through them.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        'Built in a team of 3 using MongoDB, Express.js, React.js and Node.js and deployed through Heroku.',
+      href: 'https://github.com/JBWHH/Grub-Finder',
       texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
+      logo: '/assets/project-logo-GH.png',
       logoStyle: {
         backgroundColor: '#2A1816',
         border: '0.2px solid #36201D',
@@ -74,34 +39,34 @@ export const navLinks = [
       tags: [
         {
           id: 1,
+          name: 'MongoDB',
+          path: 'assets/mongodb.png',
+        },
+        {
+          id: 2,
+          name: 'Express.js',
+          path: '/assets/javascript.png',
+        },
+        {
+          id: 3,
           name: 'React.js',
           path: '/assets/react.svg',
         },
         {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Node.js',
+          path: '/assets/nodejs.png',
         },
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'GA Marketplace',
+      desc: 'GA Marketplace is an app that allows users to buy & sell clothing online. Users can create a profile to buy or list items for sale.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+        'Built in a team of 4 using Javascript, Node.js, Express.js and MongoDB for full-CRUD data operations; while also incorporating Google OAuth for authentication.',
+      href: 'https://github.com/JBWHH/ga-marketplace',
       texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo2.png',
+      logo: '/assets/project-logo-GAM.png',
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
@@ -111,139 +76,134 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Javascript',
+          path: '/assets/javascript.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'Node.js',
+          path: 'assets/nodejs.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
+          name: 'MongoDB',
+          path: '/assets/mongodb.png',
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Google Oath',
+          path: '/assets/google.png',
         },
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'Concentration Game',
+      desc: 'A browser-based game of concentration or in this case, card matching using colors. There are 16 colors, 8 pairs total and the objective is to match them all by flipping two cards at a time.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        'This is my first project I built using just Javascript, CSS and HTML. HTML to create the cards and gameboard, CSS for styling and Javascript for the game logic. Also included a reset and play button functionality.',
+      href: 'https://github.com/JBWHH/cardMatchGame?tab=readme-ov-file',
       texture: '/textures/project/project3.mp4',
-      logo: '/assets/project-logo3.png',
+      logo: '/assets/project-logo-CG.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
           'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
         border: '0.2px solid rgba(208, 213, 221, 1)',
-        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+        boxShadow: '0px 0px 60px 0px rgba(140, 217, 102, 0.5)',
       },
       spotlight: '/assets/spotlight3.png',
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Javascript',
+          path: '/assets/javascript.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'CSS',
+          path: 'assets/css.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'HTML',
+          path: '/assets/html.png',
         },
       ],
     },
-    {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-      subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-      texture: '/textures/project/project4.mp4',
-      logo: '/assets/project-logo4.png',
-      logoStyle: {
-        backgroundColor: '#0E1F38',
-        border: '0.2px solid #0E2D58',
-        boxShadow: '0px 0px 60px 0px #2F67B64D',
-      },
-      spotlight: '/assets/spotlight4.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-      subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
-      logo: '/assets/project-logo5.png',
-      logoStyle: {
-        backgroundColor: '#1C1A43',
-        border: '0.2px solid #252262',
-        boxShadow: '0px 0px 60px 0px #635BFF4D',
-      },
-      spotlight: '/assets/spotlight5.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
+    // {
+    //   title: 'Horizon - Online Banking Platform',
+    //   desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    //   subdesc:
+    //     'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
+    //   href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+    //   texture: '/textures/project/project4.mp4',
+    //   logo: '/assets/project-logo4.png',
+    //   logoStyle: {
+    //     backgroundColor: '#0E1F38',
+    //     border: '0.2px solid #0E2D58',
+    //     boxShadow: '0px 0px 60px 0px #2F67B64D',
+    //   },
+    //   spotlight: '/assets/spotlight4.png',
+    //   tags: [
+    //     {
+    //       id: 1,
+    //       name: 'React.js',
+    //       path: '/assets/react.svg',
+    //     },
+    //     {
+    //       id: 2,
+    //       name: 'TailwindCSS',
+    //       path: 'assets/tailwindcss.png',
+    //     },
+    //     {
+    //       id: 3,
+    //       name: 'TypeScript',
+    //       path: '/assets/typescript.png',
+    //     },
+    //     {
+    //       id: 4,
+    //       name: 'Framer Motion',
+    //       path: '/assets/framer.png',
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: 'Imaginify - AI Photo Manipulation App',
+    //   desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    //   subdesc:
+    //     'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+    //   href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+    //   texture: '/textures/project/project5.mp4',
+    //   logo: '/assets/project-logo5.png',
+    //   logoStyle: {
+    //     backgroundColor: '#1C1A43',
+    //     border: '0.2px solid #252262',
+    //     boxShadow: '0px 0px 60px 0px #635BFF4D',
+    //   },
+    //   spotlight: '/assets/spotlight5.png',
+    //   tags: [
+    //     {
+    //       id: 1,
+    //       name: 'React.js',
+    //       path: '/assets/react.svg',
+    //     },
+    //     {
+    //       id: 2,
+    //       name: 'TailwindCSS',
+    //       path: 'assets/tailwindcss.png',
+    //     },
+    //     {
+    //       id: 3,
+    //       name: 'TypeScript',
+    //       path: '/assets/typescript.png',
+    //     },
+    //     {
+    //       id: 4,
+    //       name: 'Framer Motion',
+    //       path: '/assets/framer.png',
+    //     },
+    //   ],
+    // },
   ];
   
   export const calculateSizes = (isSmall, isMobile, isTablet, isDesktop) => {

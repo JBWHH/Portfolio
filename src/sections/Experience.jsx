@@ -7,7 +7,7 @@ import Developer from "../Components/Developer";
 import { Canvas } from "@react-three/fiber";
 
 const Experience = () => {
-  const [animationName, setAnimationName] = useState("untitled");
+  const [animationName, setAnimationName] = useState("idle");
   
 
   return (
@@ -44,7 +44,7 @@ const Experience = () => {
                     onPointerOver={() =>
                       setAnimationName(animation.toLowerCase())}
                     onPointerOut={() => 
-                      setAnimationName("untitled")}
+                      setAnimationName("idle")}
                     className="work-content_container group"
                   >
                     <div className="flex flex-col h-full justify-start items-center py-2">
